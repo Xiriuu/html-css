@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio 009</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: black;
+        color: white;
+        text-align: center;
+      }
+      img {
+        width: 250px;
+        margin: 10px;
+      }
+
+      .zoom img {
+        max-width: 100%;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+      }
+
+      .zoom:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Vídeos legais para assistir</h1>
+    <div>
+      <a href="./cursos/cursoHTML/indice.html"
+        ><img class="zoom" src="assets/thumb-html.png" alt="Curso HTML5"
+      /></a>
+      <a href="./cursos/cursoJs/indice.html">
+        <img class="zoom" src="./assets/thumb-js.png" alt="Curso JavaScript" />
+        <br />
+      </a>
+      <a href="./cursos/cursoHardware/indice.html"
+        ><img
+          class="zoom"
+          src="./assets/thumb-hardware.png"
+          alt="Curso Hardware"
+      /></a>
+      <a href="./cursos/cursoPython/indice.html"
+        ><img class="zoom" src="./assets/thumb-python.png" alt="Curso Python"
+      /></a>
+    </div>
+  </body>
+</html>

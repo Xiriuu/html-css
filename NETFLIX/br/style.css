@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #FFFFFF;
+  border: none;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#container {
+  background: url("../img/background.jpeg");
+  height: 850px;
+}
+
+#header {
+  padding: 28px 56px;
+  height: 90px;
+}
+
+#form-login {
+  margin: 0 auto 90px;
+  padding: 60px 68px 40px;
+  width: 400px;
+  height: 600px;
+  background-color: black;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 28px;
+}
+
+#email,
+#password {
+  background-color: #303030;
+  border-radius: 3px;
+  width: 264px;
+  height: 50px;
+  font-size: 16px;
+  padding: 16px 16px;
+  margin-bottom: 16px;
+}
+
+#enter {
+  border-radius: 3px;
+  width: 264px;
+  height: 50px;
+  font-size: 16px;
+  padding: 16px 20px;
+  background-color: #e50914;
+  margin: 24px 0 12px 0;
+  cursor: pointer;
+}
+
+#remember {
+  font-size: 13px;
+  margin-right: 5px;
+  display: flex;
+}
+
+#help {
+  font-size: 13px;
+  color: #B3B3B3;
+  float: right;
+  padding-left: 25px;
+}
+
+span {
+  color: #B3B3B3;
+}
+
+#fb-logo {
+  width: 20px;
+  margin-right: 10px;
+}
+
+#login-facebook {
+  margin-top: 50px;
+  display: flex;
+}
+
+#login-facebook span {
+  color: #737373;
+  padding-top: 3px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+p {
+  color: #737373;
+}
+
+#assinar {
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+#assinar a {
+  color: white;
+}
+
+#saiba-mais {
+  margin-top: 11px;
+  font-size: 13px;
+}
+
+#saiba-mais span {
+  color: blue;
+  cursor: pointer;
+}
+
+#saiba-mais span:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: black;
+}
+
+#site-footer {
+  height: 180px;
+  padding-top: 30px;
+  margin: 0 42px;
+}
+
+#site-footer p,
+a {
+  color: #757575;
+}
